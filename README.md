@@ -1,8 +1,30 @@
 # Cristal Parbrize
 
+![Prima pagină, desktop](docs/screenshots/acasa-desktop.jpg)
+
 Site de prezentare pentru parbrize, folii auto și polish faruri.
 
 > Proiect demonstrativ. Firma, adresa, telefoanele, emailurile și recenziile sunt fictive. Orice asemănare cu o firmă reală este întâmplătoare.
+
+## Capturi de ecran
+
+| Prima pagină, telefon | Meniul pe telefon |
+|---|---|
+| <img src="docs/screenshots/acasa-mobil.jpg" alt="Prima pagină, telefon" width="220"> | <img src="docs/screenshots/meniu-mobil.jpg" alt="Meniul pe telefon" width="220"> |
+
+## Tehnologii
+
+O singură pagină HTML, cu Tailwind CSS și JavaScript simplu.
+
+## Decizii tehnice
+
+- Simulatorul de nuanțe arată cum se schimbă vizibilitatea în funcție de procentul foliei, ca clientul să aleagă înainte de montaj.
+- Contactul principal e WhatsApp, cu mesaj precompletat, pentru că așa cer clienții prețul la folii.
+- Fișierele de configurare pentru Vercel, Netlify și Railway sunt incluse, ca site-ul să poată fi publicat pe oricare.
+- Date structurate JSON-LD pentru afacere locală.
+- Accesibilitate: link „Sari la conținut”, mesaje anunțate cititoarelor de ecran (aria-live), focus vizibil la navigarea cu tastatura.
+- Animațiile se reduc sau se opresc pentru cine a setat „reducerea mișcării” în sistem (`prefers-reduced-motion`).
+- Imaginile din afara ecranului se încarcă abia când e nevoie de ele (`loading="lazy"`).
 
 ## Rulare
 
