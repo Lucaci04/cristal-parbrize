@@ -1,0 +1,16 @@
+{
+  "name": "cristal-parbrize",
+  "version": "1.0.0",
+  "description": "Site oficial cristal parbrize Constanta - Folii Auto RAR, Parbrize, Polish Faruri",
+  "scripts": {
+    "start": "npx serve -s . -l $PORT"
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "author": "Cristian Lucaci"
+}
